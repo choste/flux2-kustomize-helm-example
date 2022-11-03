@@ -10,4 +10,7 @@ spec:
     name: flux-system
   path: ./infrastructure
   prune: true
-
+  decyrption:
+    provider: sops
+    secretRef:
+      name: sops-gpg
